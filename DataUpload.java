@@ -13,7 +13,9 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * node传入参数，java利用对方提供jar包将数据post出去，并返回String型返回值
+ * 利用对方提供jar包构造对象，并传递数据。
+ * 返回String型返回值，方便其它开发语言调用。
+ * 使用slf4j记录日志。
  */
 public class DataUpload {
 
